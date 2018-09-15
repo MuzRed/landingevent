@@ -1,0 +1,57 @@
+.price-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.price-card:not(:last-child) {
+    margin-right: 30px;
+} 
+
+.price-card {
+    height: 440px;
+    width: calc(100%);
+    background-color: #f4f4f4;
+    text-align: center;
+    
+ 
+    
+    &__title {
+        font-size: 20px;
+        line-height: 17px;
+        font-weight: 300px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    &__price {
+        background:$dark-green;
+        font-size: 16px;
+        color:#fff;
+        padding: 15px 0px 15px 0px;
+        align-items: center;
+    }
+
+    &__val {
+        color: $title-color; 
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    &__option {
+        color: $text-color; 
+        font-size: 16px;
+        
+    }
+
+    &__parametr {
+        padding: 15px 0px 15px 0px;
+    }
+
+    &__parametr-last {
+        padding: 15px 0px 35px 0px;
+    }
+
+}

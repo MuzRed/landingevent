@@ -1,0 +1,25 @@
+.main-block {
+    
+    background-color: $bg-color;
+    height: 590px;
+    color: #fff;
+
+        &__text {
+            padding-top: 235px;
+        }
+            &__tittle {
+                font-size: 60px;
+                font-weight: 300;
+                line-height: 0.33;
+            }
+
+            &__subtittle  {
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 0.33;
+            }
+
+        
+  
+
+}

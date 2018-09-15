@@ -1,0 +1,21 @@
+mixin price-card(title,price,val1,opt1,val2,opt2,val3,opt3,val4,opt4,val5,opt5,href,name)
+  .price-card
+    h3.price-card__title= title
+    .price-card__price
+        span price
+    .price-card__parametr
+        span.price-card__val=val1
+        span.price-card__option=opt1  
+    .price-card__parametr
+        span.price-card__val=val2
+        span.price-card__option=opt2  
+    .price-card__parametr
+        span.price-card__val=val3
+        span.price-card__option=opt3  
+    .price-card__parametr
+        span.price-card__val=val4
+        span.price-card__option=opt4  
+    .price-card__parametr-last
+        span.price-card__val=val5
+        span.price-card__option=opt5  
+    a(class!=attributes.class href=href)= name   

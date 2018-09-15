@@ -1,0 +1,30 @@
+
+.header {
+    color: $title-color; 
+
+    .row {
+        justify-content: space-between;
+    }
+
+    &__logo {
+        height: 115px;
+        font-size: 24px; 
+        display: flex;
+        align-items: center;
+    }
+
+    &__nav {
+        height: 115px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: $title-color;
+            padding-right: 15px;
+
+        }
+    }
+
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet")
+    link(rel="stylesheet", href="/css/index.css")
+    include ./blocks/ourServiceItem.pug
+    include ./blocks/decoreBlock.pug
+    include ./blocks/priceCard.pug
+    include ./blocks/common.pug
+    title Document
+  body
+    header.header
+      .container
+        .row
+          .col-lg-3
+            .header__logo
+              p.logo EVENT FAMILY SPB
+          .col-lg-6
+            .header__nav
+              a(href="#") HOME
+              a(href="#") SERVICES
+              a(href="#") PORTFOLIO
+              a(href="#") PRICING
+              a(href="#") ABOUT
+              a(href="#") CONTACT       
+      .main-block
+        .container
+          .row
+            .col-lg-9
+              .main-block__text
+                h1.main-block__tittle Welcome to Parallels
+                h2.main-block__subtittle Clean Responsive Parallax Theme
+      .container
+        section.section
+          h1.section__title Our Services
+          .row
+            .col-lg-12
+              .ourServices__items
+                +service-card("http://placehold.it/100x100", "Web desing", "Lorem ipsum dolor sit amet consectetur adipisicing elit Corporis" )
+                +service-card("http://placehold.it/100x100", "Web desing", "Lorem ipsum dolor sit amet consectetur adipisicing elit Corporis" )
+                +service-card("http://placehold.it/100x100", "Web desing", "Lorem ipsum dolor sit amet consectetur adipisicing elit Corporis" )
+                +service-card("http://placehold.it/100x100", "Web desing", "Lorem ipsum dolor sit amet consectetur adipisicing elit Corporis" )
+      .decoreBlock
+        .container
+          +decoreBlock("Do you like this clean theme?"," ")
+            +link('#', 'Purchaise')(class="button__big_main-purchaice") 
+            +link('#', 'Follow')(class="button__big_main-follow") 
+      .container
+        section.section
+          h1.section__title Portfolio  
+          .row
+            .col-lg-12
+              .Portfolio__buttons
+                +link('#', 'Web Desing')(class="button__small")
+                +link('#', 'Ul Desing')(class="button__small")
+                +link('#', 'Prototype')(class="button__small")
+                +link('#', 'Photography')(class="button__small")
+          .row
+            .col-lg-12
+              .Portfolio__gallery
+                img(src="http://placehold.it/224x224", class="Portfolio__gallery-poster")
+                img(src="http://placehold.it/224x224", class="Portfolio__gallery-poster")
+                img(src="http://placehold.it/224x224", class="Portfolio__gallery-poster")
+                img(src="http://placehold.it/224x224", class="Portfolio__gallery-poster")
+                img(src="http://placehold.it/224x224", class="Portfolio__gallery-poster")
+                img(src="http://placehold.it/224x224", class="Portfolio__gallery-poster")
+                img(src="http://placehold.it/224x224", class="Portfolio__gallery-poster")
+                img(src="http://placehold.it/224x224", class="Portfolio__gallery-poster")
+        p.Portfolio__text Load more
+      
+      .decoreBlock
+        .container
+          +decoreBlock("Pricing table","Clean beautiful flat table ")
+      .container
+        section.section
+          h1.section__title Our Price
+          .row
+            .col-lg-12
+              .price-gallery
+                +price-card("Our price","$285","val1"," opt1" ,"val2"," opt2","val3"," opt3","val4"," opt4","val5"," opt5","#","Purcaise")(class="button__big_main-purchaice")
+                +price-card("Our price","$285","val1"," opt1" ,"val2"," opt2","val3"," opt3","val4"," opt4","val5"," opt5","#","Purcaise")(class="button__big_main-purchaice")
+                +price-card("Our price","$285","val1"," opt1" ,"val2"," opt2","val3"," opt3","val4"," opt4","val5"," opt5","#","Purcaise")(class="button__big_main-purchaice")
+          .row
+            .col-lg-12
+              .price-gallery
+                +price-card("Our price","$285","val1"," opt1" ,"val2"," opt2","val3"," opt3","val4"," opt4","val5"," opt5","#","Purcaise")(class="button__big_main-purchaice")
+                +price-card("Our price","$285","val1"," opt1" ,"val2"," opt2","val3"," opt3","val4"," opt4","val5"," opt5","#","Purcaise")(class="button__big_main-purchaice")
+                +price-card("Our price","$285","val1"," opt1" ,"val2"," opt2","val3"," opt3","val4"," opt4","val5"," opt5","#","Purcaise")(class="button__big_main-purchaice")    
+                +price-card("Our price","$285","val1"," opt1" ,"val2"," opt2","val3"," opt3","val4"," opt4","val5"," opt5","#","Purcaise")(class="button__big_main-purchaice")
+          row
+            .col-lg-12
+              .Clients-about-head
+                .col-lg-5
+                  .Clients-about-head__line
+                .col-lg-2
+                   h2.Clients-about-head__subtitle Clients about us
+                .col-lg-5
+                  .Clients-about-head__line
+          row
+            .col-lg-12
+              .Clients-about-box
+                .col-2
+                .col-2
+                  p.Clients-about-box__open “
+                .col-4
+                  p.Clients-about-box__text Donec leo elit, dignissim eu elit vitae, aliquam tincidunt purus. Proin id risus ut sem vehicula faucibus. Fusce sed libero nec quam tempus facilisis. Vestibulum venenatis nisl ac feugiat aliquet. Sed euismod ligula arcu, et mollis est volutpat et. Aenean sed nulla placerat neque lacinia ullamcorper.
+                .col-2
+                  p.Clients-about-box__open ”
+                .col-2
+
+          
+
+      

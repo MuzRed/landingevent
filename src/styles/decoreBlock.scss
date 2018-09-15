@@ -1,0 +1,20 @@
+.decoreBlock {
+    height: 500px;
+    background-color: $bg-color;
+    color: #fff;
+    padding-top: 170px;
+
+        &__title{
+            
+            font-size: 60px;
+            font-weight: 300;
+            line-height: 0.33;
+        }
+
+        &__subtitle{
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 0.33;
+        }
+}
+
