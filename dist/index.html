@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet"/>
-    <link rel="stylesheet" href="/css/index.css"/>
+    <link rel="stylesheet" href="/css/index.css"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -71,13 +71,13 @@
           <h1 class="section__title">Portfolio  </h1>
           <div class="row">
             <div class="col-lg-12">
-              <div class="Portfolio__buttons"><a class="button__small" href="#">Web Desing</a><a class="button__small" href="#">Ul Desing</a><a class="button__small" href="#">Prototype</a><a class="button__small" href="#">Photography</a>
+              <div class="Portfolio__buttons"><a class="button__small button__small-Web" href="#">Web Desing</a><a class="button__small" href="#">Ul Desing</a><a class="button__small" href="#">Prototype</a><a class="button__small" href="#">Photography</a>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-12">
-              <div class="Portfolio__gallery"><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/></div>
+              <div class="Portfolio__gallery"><img class="Portfolio__gallery-poster Portfolio__gallery-poster-Web" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster Portfolio__gallery-poster-Web" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/><img class="Portfolio__gallery-poster" src="http://placehold.it/224x224"/></div>
             </div>
           </div>
         </section>
@@ -167,40 +167,88 @@
               </div>
             </div>
           </div>
-          <row>
-            <div class="col-lg-12">
-              <div class="Clients-about-head">
-                <div class="col-lg-5">
-                  <div class="Clients-about-head__line"></div>
-                </div>
-                <div class="col-lg-2">
-                  <h2 class="Clients-about-head__subtitle">Clients about us</h2>
-                </div>
-                <div class="col-lg-5">
-                  <div class="Clients-about-head__line"></div>
-                </div>
-              </div>
+          <div class="row">
+            <div class="col-lg-5"></div>
+            <div class="col-lg-2">
+              <h2 class="Clients-about__subtitle">Clients about us</h2>
             </div>
-          </row>
-          <row>
-            <div class="col-lg-12">
-              <div class="Clients-about-box">
-                <div class="col-2"></div>
-                <div class="col-2">
-                  <p class="Clients-about-box__open">“</p>
-                </div>
-                <div class="col-4">
-                  <p class="Clients-about-box__text">Donec leo elit, dignissim eu elit vitae, aliquam tincidunt purus. Proin id risus ut sem vehicula faucibus. Fusce sed libero nec quam tempus facilisis. Vestibulum venenatis nisl ac feugiat aliquet. Sed euismod ligula arcu, et mollis est volutpat et. Aenean sed nulla placerat neque lacinia ullamcorper.</p>
-                </div>
-                <div class="col-2">
-                  <p class="Clients-about-box__open">”</p>
-                </div>
-                <div class="col-2"></div>
-              </div>
+            <div class="col-lg-5"></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+              <p class="Clients-about-box__text">Donec leo elit, dignissim eu elit vitae, aliquam tincidunt purus. Proin id risus ut sem vehicula faucibus. Fusce sed libero nec quam tempus facilisis. Vestibulum venenatis nisl ac feugiat aliquet. Sed euismod ligula arcu, et mollis est volutpat et. Aenean sed nulla placerat neque lacinia ullamcorper.</p>
             </div>
-          </row>
+            <div class="col-lg-4"></div>
+          </div>
         </section>
       </div>
+      <div class="decoreBlock">
+        <div class="container">
+              <h2 class="decoreBlock__title">Our team</h2>
+              <h3 class="decoreBlock__subtitle">We are professional and progressive team</h3>
+        </div>
+      </div>
+      <div class="container">
+        <section class="section">
+          <h1 class="section__title">About us</h1>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="team-card-container">
+                    <div class="team-card-item"><img class="team-card-item__img" src="http://placehold.it/223x223"/>
+                      <h3 class="team-card-item__name">Vasya Kurolesov</h3><span class="team-card-item__profession">Desinger</span>
+                      <p class="team-card-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum autem dignissimos voluptate voluptas repudiandae deleniti. Esse, dolor</p>
+                    </div>
+                    <div class="team-card-item"><img class="team-card-item__img" src="http://placehold.it/223x223"/>
+                      <h3 class="team-card-item__name">Vasya Kurolesov</h3><span class="team-card-item__profession">Desinger</span>
+                      <p class="team-card-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum autem dignissimos voluptate voluptas repudiandae deleniti. Esse, dolor</p>
+                    </div>
+                    <div class="team-card-item"><img class="team-card-item__img" src="http://placehold.it/223x223"/>
+                      <h3 class="team-card-item__name">Vasya Kurolesov</h3><span class="team-card-item__profession">Desinger</span>
+                      <p class="team-card-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum autem dignissimos voluptate voluptas repudiandae deleniti. Esse, dolor</p>
+                    </div>
+                    <div class="team-card-item"><img class="team-card-item__img" src="http://placehold.it/223x223"/>
+                      <h3 class="team-card-item__name">Vasya Kurolesov</h3><span class="team-card-item__profession">Desinger</span>
+                      <p class="team-card-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum autem dignissimos voluptate voluptas repudiandae deleniti. Esse, dolor</p>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="decoreBlock">
+        <div class="container">
+              <h2 class="decoreBlock__title">You looked OVER 6000 px</h2>
+              <h3 class="decoreBlock__subtitle">That’s Great!</h3>
+        </div>
+      </div>
+      <section class="form__section">
+        <div class="container">
+          <h1 class="section__title">Contact us</h1>
+          <div class="row">
+            <div class="col-lg-8">
+              <h3 class="form__title">Mail</h3>
+              <div class="form-wrap">
+                <form>
+                  <input type="text" id="name" placeholder="Name"/>
+                  <input type="text" id="adress" placeholder="Mail"/>
+                  <textarea type="text" id="message" rows="9" placeholder="Message"></textarea>
+                  <button class="button__small" type="submit">Send mail</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+              <h3 class="form__title">More info</h3>
+              <div class="info-wrap">
+                <p>2(555)8885550320</p>
+                <p>info@domain.com</p>
+                <p>skype: username</p><span>John Dowl</span><span>Salt Talke city. UT 87550</span>
+              </div><a class="button__small" href="#">Purchaise</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
   </body>
 </html>

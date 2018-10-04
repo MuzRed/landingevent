@@ -22,7 +22,7 @@ div[class*="col-"] {
     padding: 0 7.5px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .col-xs-1 {
         width: calc(100%/12 * 1);
     }
@@ -73,7 +73,7 @@ div[class*="col-"] {
 }
 
 /* стили для планшета */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .col-sm-1 {
         width: calc(100%/12 * 1);
     }
@@ -125,7 +125,7 @@ div[class*="col-"] {
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .col-md-1 {
         width: calc(100%/12 * 1);
     }
@@ -175,7 +175,7 @@ div[class*="col-"] {
     }
 }
 
-@media screen and (max-width: 1280px) {
+
     .container {
         width: 970px;
         padding: 0 15px;
@@ -228,4 +228,3 @@ div[class*="col-"] {
     .col-lg-12 {
         width: 100%;
     }
-}
